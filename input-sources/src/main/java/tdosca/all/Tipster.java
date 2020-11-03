@@ -45,7 +45,7 @@ public class Tipster {
   public String speak() {
 
     System.out.println(inc+"tdosca.all.Tipster(): 'hello'.");
-    System.out.println(inc+"license(Tipster,BSD-3-Clause)");
+    System.out.println(inc+"license(Tipster,B.S.D-3-C.l.a.u.s.e)");
 
     if (env != null) {
       pwd=env.get("PWD");

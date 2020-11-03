@@ -16,7 +16,7 @@ public class Main {
     Greeter greeter = new Greeter();
 
     System.out.println("tdosca.tc04.Main: 'hello'.");
-    System.out.println("license(Main,MIT)");
+    System.out.println("license(Main,M.I.T)");
 
     if ((args == null) || (args.length == 0)){
       greeter.speak();

@@ -29,7 +29,7 @@ public class Greeter {
     currentTime = new LocalTime();
     System.out.println(inc+currentTime+": tdosca.tc04.Greeter(" + garg + "): 'hello'.");
     currentTime = new LocalTime();
-    System.out.println(inc+currentTime+": license(Greeter,Apache-2.0)");
+    System.out.println(inc+currentTime+": license(Greeter,A.p.a.c.h.e-2.0)");
     tipster.speak();
     currentTime = new LocalTime();
     System.out.println(inc+currentTime+": tdosca.tc04.Greeter(...): 'bye bye'");
@@ -39,7 +39,7 @@ public class Greeter {
     currentTime = new LocalTime();
     System.out.println(inc+currentTime+": tdosca.tc04.Greeter(): 'hello'.");
     currentTime = new LocalTime();
-    System.out.println(inc+currentTime+": license(Greeter,Apache-2.0)");
+    System.out.println(inc+currentTime+": license(Greeter,A.p.a.c.h.e-2.0)");
     tipster.speak();
     currentTime = new LocalTime();
     System.out.println(inc+currentTime+": tdosca.tc04.Greeter(): 'bye bye'");
