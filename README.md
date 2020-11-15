@@ -1,4 +1,4 @@
-# Test-Driven Open Source Compliance Automation Test Case No. 3b: a Simple Hello World with JAVA and gradle (including gradle wrapper)
+# Test-Driven Open Source Compliance Automation Test Case No. 4: a Plain Hello World with JAVA external componentns and gradle (including gradle wrapper)
 
 ## General Context
 The "Test-Driven Open Source Compliance Automation" is an initiative initiated by Deutsche Telekom AG and hosted and driven by the [Open Chain Reference Tooling Work Group](http://oss-compliance-tooling.org/).
@@ -18,11 +18,9 @@ This test case follows the general pattern of a TDOSCA test case:
   - **input-sources**: *contains all sources to create the distributable (binary package)* [used by the tested tool to create the compliance artifacts]
   - **README.md**: *this file*
   - **reference-compliance-artifacts**: *the compliance compliance artifacts a tool (chain) must/should generate*
-  - **bom.csv**: *a list of all differently licensed open source components of a package*
-  - **does.yaml**: *a list of open / closed tasks to establish the open source compliance*
-  - **donts.yaml**: *a list prohibited actions to use the package compliantly*
-  - **oscf.md**: *the open source compliance file* [fulfills the compliance requirements if combined with the distributed source- or binary package]
-  * **prerequisites.csv**: *a list of preinstalled tools and libs, required by the software but not delivered as part of the software package*
+    - **bom.csv**: *a list of all differently licensed open source components of a package*
+    - **oscf.md**: *the open source compliance file* [fulfills the compliance requirements if combined with the distributed source- or binary package]
+    - **prerequisites.csv**: *a list of preinstalled tools and libs, required by the software but not delivered as part of the software package*
 
 ### Intention
 
@@ -42,6 +40,4 @@ The test data of this test case (the program sources in ``input-sources``
 
 * The software delivered as content of the test case directory ``input-sources`` is licensed under the licenses the test case uses to challenge the compliance tools. Contributions take place under the same licenses.
 
-* Unless otherwise specified, all other files are distributed under the terms of the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/).
-  - If you share or adapt (one of) the files add the attribution: "File originates from [https://github.com/Open-Source-Compliance/tdosca-tc04-plainhw](https://github.com/Open-Source-Compliance/tdosca-tc04-plainhw) initiated by Deutsche Telekom AG"
-  - If you distribute the complete test case add the attribution: "The test case https://github.com/Open-Source-Compliance/tdosca-tc04-plainhw](https://github.com/Open-Source-Compliance/tdosca-tc04-plainhw) originates from the TDOSCA project initiated by Deutsche Telekom AG"
+* Unless otherwise specified, all other files are distributed under the terms of the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/): If you share or adapt ithe test case or files of it, please add the attribution: "based on [https://github.com/Open-Source-Compliance/tdosca-tc04-plainhw](https://github.com/Open-Source-Compliance/tdosca-tc04-plainhw) initiated by Deutsche Telekom AG"
