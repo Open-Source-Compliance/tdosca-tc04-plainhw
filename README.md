@@ -26,17 +26,6 @@ This test case follows the general pattern of a TDOSCA test case:
 
 The test data of this test case (the program sources in ``input-sources``)
 
-The main project license is the MIT license, but the classes are licensed deviantly.
-Additionally
-
-    Greeter uses the external java lib org.joda.time.LocalTime;
-    Main uses the external java lib org.apache.logging.log4j
-
-The JUnit test are licensed as the classes the test.
-
-
-
-
 * can be compiled, installed and used by the respective gradle commands called by the gradlew(rapper) script
 * consist of three java files (Main.java, Greeter.java and Tipster.java) and the respective test classes
 * Main includes Greeter includes Tipster. Each part says Hello
