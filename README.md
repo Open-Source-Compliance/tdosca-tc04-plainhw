@@ -24,13 +24,27 @@ This test case follows the general pattern of a TDOSCA test case:
 
 ### Intention
 
-The test data of this test case (the program sources in ``input-sources``
+The test data of this test case (the program sources in ``input-sources``)
+
+The main project license is the MIT license, but the classes are licensed deviantly.
+Additionally
+
+    Greeter uses the external java lib org.joda.time.LocalTime;
+    Main uses the external java lib org.apache.logging.log4j
+
+The JUnit test are licensed as the classes the test.
+
+
+
 
 * can be compiled, installed and used by the respective gradle commands called by the gradlew(rapper) script
-* consist of three java files (*Main.java*, *GreetingService.java* and *EnvService.java*) and the respective gradle files to use them
-* ``Main`` includes ``GreetingService`` includes ``EnvService``. Each part says *Hello*
-* The main project license is the MIT license, but *EnvService.java* is licensed under the BSD-2-Clause.
-* The JUnit test are licensed as the classes the test.
+* consist of three java files (Main.java, Greeter.java and Tipster.java) and the respective test classes
+* Main includes Greeter includes Tipster. Each part says Hello
+* The main project license is the MIT license, but the classes are licensed deviantly.
+* Additionally
+  - Greeter uses the external java lib org.joda.time.LocalTime;
+  - Main uses the external java lib org.apache.logging.log4j
+  - The JUnit test are licensed as the classes the test.
 * Using *gradle* with a wrapper (created by ``gradle wrapper``) evokes a compliance trap, because (parts of) gradle would become part of the repository. These parts are licensed under the Apache-V2 license. Hence distributing the repository (even by cloning / downloading it from GitHub) requires, that the *gradle* compliance artifacts must become part fo the repo although they need not to be added into the distributions created by gradle (``gradle distTar`` etc.). 
 * For specific challenges of this test case the [compliance-traps.md](compliance-traps.md)
 
