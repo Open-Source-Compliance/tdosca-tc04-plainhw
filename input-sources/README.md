@@ -33,18 +33,13 @@ To compile and install the program itself, do this:
 * Download and unzip test case package or clone the test case repository
 * Change into the directory *input-sources*
 * Call
-  - ``gradle build`` or
-  - ``gradlew build``
+  - ``gradle build`` or  ``gradlew build``
 
 ## 5. Usage <a id="use"></a>
 * Change into the directory *input-sources*
 * Call
-  - ``gradle(w) run``
-  - or ``java -cp build/libs/tdosca-tc04.jar tdosca.tc3.Main``
-  - or
-    - ``unzip build/distributions/tdosca-tc04-plainhw.zip`` and
-    - ``cd tdosca-tc04-plainhw`` and
-    - ``bin/tdosca-tc04``
+  - ``gradle build`` or  ``gradlew build``
+  - ``gradle run`` or  ``gradlew run``
 
 ## 6. Licensing <a id="lic"></a>
 
