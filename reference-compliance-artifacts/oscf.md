@@ -8,14 +8,14 @@
 
 ## 2.) Index of included FOSS packages (= BOM)  
 
-- [tdosca-tc04](#TDOSCA-TC06) 1.0 MIT
+- [tdosca-tc04](#TDOSCA-TC04) 1.0 MIT
 - [log4j](#LOG4J) 2.14.0 Apache-2.0
 - [joda-time](#JODA-TIME) 2.10.8 Apache-2.0
 - [gradle-wrapper](#GRADLE-WRAPPER) 6.7  Apache-2.0
 
 ## 3.) Compliance Artifacts for the included FOSS packages
 
-<a name="TDOSCA-TC06"> </a>
+<a name="TDOSCA-TC04"> </a>
 ### 3.1) Package: tdosca-tc04
 
 - Release: 1.0
@@ -92,7 +92,7 @@ POSSIBILITY OF SUCH DAMAGE.
   - NoticeFile:
 
 ```
-# Project TDOSCA-TC06-PLAINHW / release <#1.0.0#>
+# Project TDOSCA-TC04-PLAINHW / release <#1.0.0#>
 
 *Copyright (C) 2020 Karsten Reincke / Deutsche Telekom AG <karsten.reincke@telekom.de>*
 
