@@ -3,6 +3,6 @@
 *Copyright (C) 2020 Karsten Reincke / Deutsche Telekom AG <karsten.reincke@telekom.de>*
 
 The class Greeter is licensed under the terms of the Apache-v2 license.
-Contributors to this class Karsten
+Contributors to this class:
 
 Karsten Reincke [kreincke] (karsten.reincke@telekom.de)
