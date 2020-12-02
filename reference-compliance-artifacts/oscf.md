@@ -48,9 +48,9 @@ THE SOFTWARE.
 ```
 
 <!-- deviantly licensed directories -->
-- Scope: DIR
+- Scope: FILE
+  - File: src/main/java/de/tdosca/common/Tipster.java
   - LicenseID: BSD-3-Clause
-  - Dir: `src/main/java/de/tdosca/common/`
   - LicenseText:
 
 ```
@@ -86,8 +86,8 @@ POSSIBILITY OF SUCH DAMAGE.
 
 <!-- deviantly licensed directories -->
 - Scope: FILE
-  - LicenseID: Apache-2.0
   - File: `src/main/java/de/tdosca/tc04/Greeter.java`
+  - LicenseID: Apache-2.0
   - LicenseText: see [the replicated license text](#Apache-2.0)
   - NoticeFile:
 
